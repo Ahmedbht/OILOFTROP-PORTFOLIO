@@ -1,0 +1,11 @@
+.vercel
+.next
+/public/videos
+/public/screens
+node_modules
+*.mp4
+*.mov
+*.avi
+*.png
+*.jpg
+*.jpeg
