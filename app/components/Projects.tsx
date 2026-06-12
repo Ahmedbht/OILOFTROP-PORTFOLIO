@@ -4,33 +4,32 @@ import { useEffect, useState, useRef } from 'react'
 import Link from 'next/link'
 
 const projects = [
-  {
-    id: 9,
-    title: 'Nettocar : Une agence de nettoyage de vehicules',
-    desc: 'Projet Desktop de gestion intégrée pour une agence de nettoyage de véhicules. Son but principal est dautomatiser le suivi des prestations et de fluidifier lorganisation quotidienne de lagence',
-    tags:['VB.NET'],
-    img:'/nettvb.png',
-    Video:'/videos/nettocar.mp4',
-    liveUrl:'#'
+ {
+    id: 2,
+    title: 'Discover Tetouan',
+    desc: 'Tourist guide website for the city of Tétouan, launched and ranked on Google Search under (Discover Tetouan). Features local attractions, culture, and travel tips. Currently migrating to React.',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    img: '/screen2.png',
+    video: '/videos/tetouan.mp4',
+    liveUrl: 'https://www.discovertetouan.com/',
   },
   {
-  id: 8,
-title: 'OptiCloud : Système de gestion de boutiques d’optique',
-desc: 'Application web complète pour les boutiques d’optique marocaines, offrant une gestion complète des stocks, des dossiers clients, des ordonnances, un système de point de vente, des rapports PDF et un système d’authentification basé sur les rôles, avec une page d’accueil SaaS professionnelle.',
-tags: ['PHP', 'MySQL', 'Bootstrap 5', 'FPDF', 'JavaScript'],
-img: '/screen8.png',
-video: '/videos/opticloud.mp4',
-liveUrl: '#',
+    id: 5,
+    title: 'Azdoud : Premium Car Rental',
+desc: 'Full frontend car rental website for a Moroccan business featuring a luxury dark design, featured fleet section, WhatsApp booking integration, and fully responsive layout.',
+tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+img: '/screen5.png',
+liveUrl: 'https://azdoud.vercel.app',
   },
   {
-  id: 10,
-  title: 'Password Manager',
-  desc: 'Application de bureau pour la gestion sécurisée des mots de passe. Fonctionnalités : ajout, modification, suppression et recherche de mots de passe, génération de mots de passe aléatoires et stockage local chiffré AES au format JSON.',
-  tags: ['Java', 'JavaFX', 'AES Encryption', 'Gson', 'Maven'],
-  img: '/JAVAAAPHOTO.png',
-  video: '/videos/passmanager.mp4',
-  liveUrl: '#',
-},
+    id: 3,
+    title: 'Weather App',
+    desc: 'A weather application that shows real-time weather data for any city worldwide, with geolocation support.',
+    tags: ['Next.js', 'TypeScript', 'API'],
+    img: '/screen3.png',
+    video: '/videos/weather.mp4',
+    liveUrl: 'https://weather-app-ruby-nine-15.vercel.app/',
+  },
 ]
 
 export default function Projects() {

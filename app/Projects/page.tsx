@@ -8,7 +8,7 @@ const allProjects = [
     desc: 'Projet Desktop de gestion intégrée pour une agence de nettoyage de véhicules. Son but principal est dautomatiser le suivi des prestations et de fluidifier lorganisation quotidienne de lagence',
     tags:['VB.NET'],
     img:'/nettvb.png',
-    Video:'/videos/nettocar.mp4',
+    video:'/videos/nettocar.mp4',
     liveUrl:'#'
   },
   {
@@ -17,7 +17,7 @@ title: 'OptiCloud : Optical Shop Management System',
 desc: 'Full-stack web application for Moroccan optical shops featuring complete inventory management, client records, prescriptions, point of sale, PDF reports, and a role-based authentication system with a professional SaaS landing page.',
 tags: ['PHP', 'MySQL', 'Bootstrap 5', 'FPDF', 'JavaScript'],
 img: '/screen8.png',
-video: '/videos/opticloud.mp4',
+video: '/videos/Opticloud.mp4',
 liveUrl: '#',
   },
   {
@@ -26,7 +26,7 @@ liveUrl: '#',
   desc: 'Desktop application for managing passwords securely. Features include adding, editing, deleting and searching passwords, random password generation, and AES-encrypted local storage using JSON.',
   tags: ['Java', 'JavaFX', 'AES Encryption', 'Gson', 'Maven'],
   img: '/JAVAAAPHOTO.png',
-  video: '/videos/passmanager.mp4',
+  video: '/videos/Javavideo.mp4',
   liveUrl: '#',
 },
   {
