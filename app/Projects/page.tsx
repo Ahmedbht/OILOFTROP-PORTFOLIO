@@ -101,7 +101,14 @@ liveUrl: 'https://azdoud.vercel.app',
     img: '/scraper-pro.png',
     liveUrl: 'https://github.com/Ahmedbht/books-scraper',
   },
-
+  {
+    id: 13,
+    title: 'History & Wars Quiz',
+    desc: 'A Python terminal quiz game with 15 history questions, scoring system, timer, and a JSON leaderboard that saves the top 5 players.',
+    tags: ['Python', 'JSON', 'CLI'],
+    img: '/quizz pic.png',
+    liveUrl: 'https://github.com/Ahmedbht/history-quiz',
+}
 ]
 
 export default function ProjectPage() {
