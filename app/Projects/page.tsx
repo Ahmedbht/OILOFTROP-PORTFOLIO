@@ -92,7 +92,16 @@ liveUrl: 'https://azdoud.vercel.app',
      video: '/videos/tetouan-doctor.mp4',
       liveUrl: 'https://tetouan-doctor-vxnd.vercel.app/'
   
-  }
+  },
+  {
+  id:11,
+    title: 'Books Scraper & Analyzer',
+    desc: 'A Python web scraper that collects 1000 books across 50 pages, extracts titles and prices, saves to CSV and generates a full price analysis report.',
+    tags: ['Python', 'BeautifulSoup', 'Requests'],
+    img: '/scraper-pro.png',
+    liveUrl: 'https://github.com/Ahmedbht/books-scraper',
+  },
+
 ]
 
 export default function ProjectPage() {
